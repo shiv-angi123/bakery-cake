@@ -8,10 +8,22 @@ border-redius:20%;
 border-left:10px solid red;
 border-right:10px solid red;
 }
+  .blink{
+animation:blinker 1s step-start infinite;
+font-size:25px;
+text-align:left;
+color:red;
+}
+@keyframes blinker{
+50%{
+opacity:0;
+}
+}
 </style>
 </head>
 </head>
 <body bgcolor="pink">
+<p class="blink"style="font-family:fantasy;">Order Now</p>
 <image>
 <a target="_blank" href="LO.JPEG">
 <img src="LO.JPEG" alt="image" width="400" height="300">
